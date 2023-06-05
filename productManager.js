@@ -37,7 +37,7 @@ class productoManager {
 
         const productoAdd = this.productos[productoIndex].productos.includes(idProducto);
 
-        if (productAdd) {
+        if (productoAdd) {
             console.log("El producto se agregó correctamente");
             return;
         }
